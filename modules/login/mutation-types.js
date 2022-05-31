@@ -1,0 +1,6 @@
+export const CHANGE_EMAIL = 'CHANGE_EMAIL'
+export const CHANGE_PASSWORD = 'CHANGE_PASSWORD'
+export const SET_TOKEN = 'SET_TOKEN'
+export const SET_EXPIRE_DATE = 'SET_EXPIRE_DATE'
+export const SET_ERRORS = 'SET_ERRORS'
+export const CLEAR_ERRORS = 'CLEAR_ERRORS'

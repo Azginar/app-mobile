@@ -1,0 +1,3 @@
+export const AUTH_USER = 'AUTH_USER'
+export const INIT_AUTH_MIDDLEWARE = 'INIT_AUTH_MIDDLEWARE'
+export const LOGOUT = 'LOGOUT'

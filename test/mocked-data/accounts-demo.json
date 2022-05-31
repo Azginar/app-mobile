@@ -1,0 +1,164 @@
+{
+  "all": {
+    "demo-cent": {
+      "name": "DEMO CENT",
+      "items": []
+    },
+    "demo-start": {
+      "name": "DEMO START",
+      "items": [
+        {
+          "type": "demo-start",
+          "login": 69868,
+          "label": "DSTR-69868",
+          "server_id": 40,
+          "server": "Tifia-Demo",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 10000,
+          "margin_free": 10000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 10000,
+          "credit": 0,
+          "equity": 10000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2020-09-01 12:35:59",
+          "lastdate": "2020-09-01 12:35:59",
+          "is_swap_free": false
+        }
+      ]
+    },
+    "demo-classic": {
+      "name": "DEMO CLASSIC",
+      "items": [
+        {
+          "type": "demo-classic",
+          "login": 80343,
+          "label": "DCLS-80343",
+          "server_id": 40,
+          "server": "Tifia-Demo",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 10000,
+          "margin_free": 10000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 10000,
+          "credit": 0,
+          "equity": 10000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2020-11-24 11:04:55",
+          "lastdate": "2020-11-24 11:04:55",
+          "is_swap_free": false
+        },
+        {
+          "type": "demo-classic",
+          "login": 110110,
+          "label": "DCLS-110110",
+          "server_id": 40,
+          "server": "Tifia-Demo",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 10000,
+          "margin_free": 10000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 10000,
+          "credit": 0,
+          "equity": 10000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-09-22 12:27:07",
+          "lastdate": "2021-09-22 12:27:07",
+          "is_swap_free": false
+        }
+      ]
+    },
+    "demo-pro": {
+      "name": "DEMO PRO",
+      "items": [
+        {
+          "type": "demo-pro",
+          "login": 113819,
+          "label": "DPRO-113819",
+          "server_id": 40,
+          "server": "Tifia-Demo",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 50000,
+          "margin_free": 50000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 50000,
+          "credit": 0,
+          "equity": 50000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-11-09 11:22:55",
+          "lastdate": "2021-11-09 11:22:55",
+          "is_swap_free": false
+        }
+      ]
+    },
+    "demo-crypto": {
+      "name": "DEMO CRYPTO",
+      "items": []
+    },
+    "mt5-demo-classic": {
+      "name": "DEMO MT5 CLASSIC",
+      "items": [
+        {
+          "type": "mt5-demo-classic",
+          "login": 5018313,
+          "label": "MT5-DEMO-5018313",
+          "server_id": 60,
+          "server": "unknown",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 10000,
+          "margin_free": 10000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 10000,
+          "credit": 0,
+          "equity": 10000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-11-16 18:15:11",
+          "lastdate": "2021-11-16 18:15:11",
+          "is_swap_free": true
+        },
+        {
+          "type": "mt5-demo-classic",
+          "login": 5018314,
+          "label": "MT5-DEMO-5018314",
+          "server_id": 60,
+          "server": "unknown",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 10000,
+          "margin_free": 10000,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 10000,
+          "credit": 0,
+          "equity": 10000,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-11-16 18:15:42",
+          "lastdate": "2021-11-16 18:15:42",
+          "is_swap_free": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+export const ACTIVE_ITEM_MENU = 'ACTIVE_ITEM_MENU'
+export const LIGHT_THEME = 'LIGHT_THEME'

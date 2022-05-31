@@ -1,0 +1,30 @@
+.editSettingsTransactionLeaveSettings-leave-active{
+  transition: 0.3s;
+  transform: translate(100%, 0);
+  opacity: 0;
+}
+
+.editSettingsTransactionLeaveSettings-enter-active {
+  transition: 0.3s;
+}
+
+
+.editSettingsTransactionEnterSettings-leave-active{
+  opacity: 0;
+}
+
+.editSettingsTransactionEnterSettings-enter-active{
+  transition: 0.3s;
+}
+
+.editSettingsTransactionEnterSettings-enter{
+  transform: translate(100%, 0);
+}
+
+.noTransition-enter-active {
+
+}
+
+.noTransition-leave-active  {
+
+}

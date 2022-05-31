@@ -1,0 +1,49 @@
+stages:
+  - test
+  - deploy
+# ------------------------------------------------------------------------------
+#                                       TEST
+# ------------------------------------------------------------------------------
+test:
+  stage: test
+  variables:
+    DEPLOY_PATH: /var/www/socialnuxtappblacredmob
+    APP_NAME: "NuxtAppNameBlackRedMob"
+  script:
+    - pwd
+    - node -v
+    - npm i
+    - node -v
+    - npm run test
+  only:
+    - merge_requests
+
+# ------------------------------------------------------------------------------
+#                               DEPLOY TO PRODUCTION
+# ------------------------------------------------------------------------------
+
+full deploy to social-nuxt-app-mob-stand:
+  stage: deploy
+  variables:
+    DEPLOY_PATH: /var/www/socialnuxtappblacredmob
+    APP_NAME: "NuxtAppNameBlackRedMob"
+  script:
+    - pwd
+    - cp .env.prod .env
+    - cat .env
+    - node -v
+    - npm i
+    - npm run build
+    - if [ ! -d $DEPLOY_PATH ]; then mkdir $DEPLOY_PATH; fi
+    - rsync -arvz --include-from './rsync-include.txt' --exclude-from './rsync-exclude.txt' --delete ./ $DEPLOY_PATH
+    - cd $DEPLOY_PATH
+    - pm2 startOrRestart ecosystem.config.js
+    - pm2 show $APP_NAME
+    - pwd
+  environment:
+    name: master
+    url: https://mdev.tifia.com
+  only:
+    - master
+
+

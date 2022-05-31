@@ -1,0 +1,243 @@
+{
+  "sync_trading_list": {
+    "masters": {
+      "name": "Trader's accounts",
+      "items": []
+    },
+    "slaves": {
+      "name": "Investor's accounts",
+      "items": []
+    }
+  },
+  "mastersContests": [],
+  "all": {
+    "silver": {
+      "name": "SILVER",
+      "items": []
+    },
+    "gold": {
+      "name": "GOLD",
+      "items": []
+    },
+    "platinum": {
+      "name": "PLATINUM",
+      "items": []
+    },
+    "AD-DEF-USD-DEF": {
+      "name": "Affiliate Deposit",
+      "items": []
+    },
+    "AW-DEF-USD-DEF": {
+      "name": "Affiliate Withdrawal",
+      "items": []
+    },
+    "AP-DEF-USD-DEF": {
+      "name": "Affiliate Commission",
+      "items": []
+    },
+    "AC-DEF-USD-DEF": {
+      "name": "Affiliate Profit",
+      "items": []
+    },
+    "crypto": {
+      "name": "CRYPTO",
+      "items": []
+    },
+    "reward": {
+      "name": "REWARD",
+      "items": []
+    },
+    "Rebate": {
+      "name": "REBATE",
+      "items": []
+    },
+    "ecn-classic": {
+      "name": "ECN CLASSIC",
+      "items": [
+        {
+          "type": "ecn-classic",
+          "login": 6268433,
+          "label": "PROFIT-6268433",
+          "server_id": 30,
+          "server": "Tifia-MT4",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-04-14 10:22:46",
+          "lastdate": "2021-04-14 10:22:46",
+          "is_swap_free": false
+        },
+        {
+          "type": "ecn-classic",
+          "login": 6308338,
+          "label": "CLS-6308338",
+          "server_id": 30,
+          "server": "Tifia-MT4",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-09-01 19:10:25",
+          "lastdate": "2021-09-01 19:10:25",
+          "is_swap_free": true
+        },
+        {
+          "type": "ecn-classic",
+          "login": 6316398,
+          "label": "CLS-6316398",
+          "server_id": 30,
+          "server": "Tifia-MT4",
+          "leverage": "1:400",
+          "currency": "USD",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-10-06 13:32:20",
+          "lastdate": "2021-10-06 13:32:20",
+          "is_swap_free": true
+        }
+      ]
+    },
+    "ecn-pro": {
+      "name": "ECN PRO",
+      "items": [
+        {
+          "type": "ecn-pro",
+          "login": 6332032,
+          "label": "PRO-6332032",
+          "server_id": 30,
+          "server": "Tifia-MT4",
+          "leverage": "1:100",
+          "currency": "EUR",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-11-30 10:45:32",
+          "lastdate": "2021-11-30 10:45:32",
+          "is_swap_free": true
+        }
+      ]
+    },
+    "start": {
+      "name": "START (micro)",
+      "items": []
+    },
+    "cent": {
+      "name": "CENT",
+      "items": []
+    },
+    "start-turkey": {
+      "name": "ECN-START",
+      "items": []
+    },
+    "start-ecn-turkey": {
+      "name": "ECN-START",
+      "items": []
+    },
+    "classic-ecn-turkey": {
+      "name": "ECN-CLASSIC",
+      "items": []
+    },
+    "pro-ecn-turkey": {
+      "name": "ECN-PRO",
+      "items": []
+    },
+    "investment": {
+      "name": "PORTFOLIO",
+      "items": []
+    },
+    "partner": {
+      "name": "Affiliate accounts",
+      "items": [
+        {
+          "type": "mt5-partner",
+          "login": 5012049,
+          "label": "MT5-PARTNERS-5012049",
+          "server_id": 60,
+          "server": "Tifia MT5 (Classic)",
+          "leverage": "1:1",
+          "currency": "USD",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2020-12-16 14:35:09",
+          "lastdate": "2020-12-22 08:41:03",
+          "is_swap_free": false
+        }
+      ]
+    },
+    "mt5-start": {
+      "name": "MT5 START",
+      "items": []
+    },
+    "mt5-classic": {
+      "name": "MT5 ECN CLASSIC",
+      "items": [
+        {
+          "type": "mt5-classic",
+          "login": 5015633,
+          "label": "MT5-C-5015633",
+          "server_id": 60,
+          "server": "Tifia MT5 (Classic)",
+          "leverage": "1:100",
+          "currency": "USD",
+          "balance": 0,
+          "margin_free": 0,
+          "margin_level": "0,00%",
+          "total_profit": 0,
+          "total_swap": 0,
+          "available": 0,
+          "credit": 0,
+          "equity": 0,
+          "floating": "0.00",
+          "margin": 0,
+          "regdate": "2021-05-26 16:59:44",
+          "lastdate": "2021-05-26 16:59:44",
+          "is_swap_free": true
+        }
+      ]
+    },
+    "mt5-pro": {
+      "name": "MT5 ECN PRO",
+      "items": []
+    }
+  }
+}
